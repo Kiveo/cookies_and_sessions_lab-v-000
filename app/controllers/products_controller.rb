@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
 
   def add
     cart << session[:product]
-    render '/'
+    render 'index'
   end
 
 end
