@@ -1,0 +1,11 @@
+ <!-- minimum: a text box where the user can enter the name of a product,
+ a submit button that adds it to their cart, and a display of what's in the cart.
+  -->
+<h2>Products Index</h2>
+
+<%= form_for(@product) do |f| %>
+  <%= f.text_field :name %>
+
+  <%= f.submit "Add to Cart" %>
+<% end %>
+  
