@@ -1,7 +1,11 @@
-class ProductsController < ApplicationController 
+class ProductsController < ApplicationController
 
-  def method_name
-    
+  def index
+
   end
 
-end 
+  def add
+
+  end
+
+end
