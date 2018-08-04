@@ -5,6 +5,7 @@ class ProductsController < ApplicationController
 
   def add
     cart << session[:product]
+    render '/'
   end
 
 end
