@@ -11,8 +11,8 @@
   </ul>
 <% end %>
 
-<%= form_for(cart) do |f| %>
-  <%= f.text_field :product %>
+<%= form_tag("/") do %>
+  <%= text_field_tag :product %>
 
-  <%= f.submit "Add to Cart" %>
+  <%= submit_tag "Add to Cart" %>
 <% end %>
