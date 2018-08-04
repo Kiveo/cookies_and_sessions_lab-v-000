@@ -8,9 +8,4 @@ class ProductsController < ApplicationController
 
   end
 
-  private 
-
-  def products_params
-  end 
-
 end
